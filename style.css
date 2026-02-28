@@ -202,10 +202,19 @@ section#menu { max-width: 1250px; margin: 2rem auto 4rem; padding: 0 1.5rem; }
 .cart-inputs label { font-size: 0.75rem; font-weight: bold; color: #555; display: block; margin-bottom: 5px; text-transform: uppercase;}
 .cart-inputs input { width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 4px; margin-bottom: 15px; font-size: 0.95rem; outline: none; }
 .cart-inputs input:focus { border-color: var(--nav-brown); }
+
 .whatsapp-btn {
-    width: 100%; background: #25D366; color: white; border: none; padding: 12px;
-    border-radius: 4px; font-size: 1.05rem; font-weight: bold; cursor: pointer;
-    display: flex; justify-content: center; align-items: center;
+    width: 100%;
+    background: #25D366;
+    color: white;
+    padding: 40px;
+    border-radius: 4px;
+    font-size: 1.09rem;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Footer */
@@ -544,3 +553,4 @@ input:checked + .slider:before { transform: translateX(26px); }
         font-size: 0.9rem;
     }
 }
+
